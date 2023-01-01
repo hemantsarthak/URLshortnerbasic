@@ -7,9 +7,10 @@
 }
 
 .inputContainer h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Open Sans", sans-serif;
+  /*-font-family: 'Playfair Display', serif;*/
   font-size: 3.5rem;
-  color: #fff;
+  color: rgb(49, 49, 49);
   margin-bottom: 1.5rem;
 }
 .inputContainer h1 span {
@@ -40,7 +41,7 @@
   font-weight: bold;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
-  color: #fff;
+  color: rgb(44, 44, 44);
   background-color: var(--primary-color);
   border: none;
   cursor: pointer;
@@ -54,7 +55,7 @@
   padding: 0.5rem 1rem;
 }
 .result p {
-  color: #fff;
+  color: rgb(61, 61, 61);
   border: 1px solid var(--primary-color);
   padding: 0.5rem 1rem;
   margin-right: 1rem;
@@ -68,10 +69,12 @@
 }
 .result button.copied {
   background: #fff;
+  border-color: rgb(56, 136, 109);
+  border-width: 4px;
   color: var(--primary-color);
 }
 .noData {
-  color: #fff;
+  color: rgb(78, 78, 78);
   font-size: 1rem;
 }
 
@@ -97,7 +100,8 @@
   left: 0;
   margin: 0;
   padding: 0;
-  background: #4e54c8;
+ /* background: #cfe0ff;*/
+ background: #cfe0ff;
   overflow: hidden;
   z-index: -1;
 }
@@ -107,7 +111,7 @@
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 0.2);
+  background: #4ecca2a2;
   animation: animate 19s linear infinite;
 }
 
